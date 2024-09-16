@@ -1,0 +1,65 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-image: url("dödaeljuice.png"); /* Keep the background */
+    background-size: cover;
+    background-position: center;
+}
+
+.mainContent {
+    text-align: center; /* Center align the header */
+}
+
+p {
+    color: white;
+    text-align: center; /* Center align the text under the images */
+}
+
+.headerMain {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.omMig {
+    display: block;
+    margin-top: 0;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none; /* Prevent underline */
+}
+
+.headerSecondary {
+    color: white;
+    text-align: center;
+}
+
+.imageContainer {
+    display: flex; /* Use Flexbox to align images next to each other */
+    justify-content: center; /* Center the images horizontally */
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the images */
+    margin-top: 20px;
+}
+
+.bild1, .bild2 {
+    margin: 0;
+    height: 250px; /* Uniform width for both images */
+    border: 5px solid white; /* Same border color and width */
+}
+
+.bild3, .bild4{
+    margin: 0;
+    height: 240px;
+    border: 5px solid white;
+}
+
+.bild1Text, .bild2Text {
+    margin-top: 10px; /* Space between the image and the text */
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
